@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://caissa.com.ar"),
   icons: { icon: "/favicon-caissa-black.svg" },
 
-  title: "Agendas y Calendarios Personalizados | Caissa — Fabricantes desde 1977",
+  title: "Agendas y Calendarios Personalizados | Caissa — Somos Fabricantes desde 1977",
   description:
     "Fabricante argentino de agendas, calendarios y cuadernos personalizables desde 1977. Tienda online, venta a empresas y programa de revendedores. Envíos a todo el país.",
 
