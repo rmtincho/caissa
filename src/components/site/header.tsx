@@ -98,7 +98,9 @@ export function Header() {
         {/* Right — CTAs (desktop) */}
      <div className="hidden items-center justify-end gap-3 lg:flex lg:w-44">
           <a
-            href="#categorias"
+            href="https://drive.google.com/file/d/1nHlYLjMLfrA2JQLUXxeX-Kq0S-SB1Omw/view"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center whitespace-nowrap rounded-full border border-current/30 px-4 py-2.5 text-sm font-semibold leading-none transition-[border-color,opacity] duration-300 ease-[var(--ease-out-quart)] hover:border-current/60 hover:opacity-100"
           >
             <span className="-translate-y-0.5">Ver catálogo</span>
@@ -157,7 +159,9 @@ export function Header() {
                 <div className="mt-8 flex flex-col gap-3">
                   <SheetClose asChild>
                     <a
-                      href="#categorias"
+                      href="https://drive.google.com/file/d/1nHlYLjMLfrA2JQLUXxeX-Kq0S-SB1Omw/view"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center justify-center rounded-full border border-fg-30 px-6 py-3.5 text-center text-base font-semibold leading-none"
                     >
                       Ver catálogo
