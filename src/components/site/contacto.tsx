@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import Image from "next/image"
 import { toast } from "sonner"
 import { Container } from "./primitives"
 
@@ -76,19 +75,7 @@ export function Contacto() {
 
   return (
     <section id="contacto">
-      <div className="grid grid-cols-1 lg:grid-cols-[0.9fr_1.1fr]">
-        {/* Image + contact details */}
-        <div className="relative isolate min-h-[420px] overflow-hidden sm:min-h-[520px] lg:min-h-[640px]">
-          <Image
-            src="/images/contacto.jpg"
-            alt="Persona trabajando en el taller de Caissa"
-            fill
-            sizes="(max-width:1024px) 100vw, 45vw"
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-linear-to-t from-black via-black/40 to-black/25" />
-        </div>
-
+      <div>
         {/* Form */}
         <div className="py-20 md:py-28">
           <Container className="lg:max-w-[640px] lg:px-12 xl:px-16">
@@ -99,7 +86,7 @@ export function Contacto() {
               data-reveal="up"
               className="mt-5 font-display text-[clamp(2rem,4.4vw,3.5rem)] font-bold leading-[1.04] tracking-[-0.03em] text-balance [--reveal-delay:80ms]"
             >
-              Hablemos de tu próximo pedido
+              ¿Dudas? Escribinos y las resolvemos
             </h2>
             <p
               data-reveal="up"
