@@ -20,7 +20,7 @@ export function Galeria() {
             data-reveal="up"
             className="mt-5 font-display text-[clamp(2rem,5vw,3.75rem)] font-bold leading-[1.04] tracking-[-0.03em] text-balance [--reveal-delay:80ms]"
           >
-            Trabajos que hablan por sí solos
+            Trabajos para Empresas
           </h2>
           <p
             data-reveal="up"

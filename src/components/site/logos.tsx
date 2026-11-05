@@ -22,7 +22,7 @@ export function Logos() {
   return (
     <section className="pt-4 pb-20 md:pt-6 md:pb-28">
       <Container>
-        <p data-reveal="up" className="text-center font-mono-label text-fg-80">
+        <p data-reveal="up" className="text-center font-mono-label text-white">
           Confían en nosotros
         </p>
       </Container>

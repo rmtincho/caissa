@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState, type ComponentType, type SVGProps } from "react"
+import { useState, type ComponentType, type SVGProps } from "react"
 import Image from "next/image"
 import { MercadoLibre } from "./icons"
 import {
@@ -38,32 +38,11 @@ const NAV: NavItem[] = [
 ]
 
 export function Header() {
-  const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
-
-  useEffect(() => {
-    const update = () => {
-      setScrolled(window.scrollY > 24)
-    }
-
-    update()
-    window.addEventListener("scroll", update, { passive: true })
-    window.addEventListener("resize", update, { passive: true })
-    return () => {
-      window.removeEventListener("scroll", update)
-      window.removeEventListener("resize", update)
-    }
-  }, [])
-
-  const onHero = !scrolled && !open
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-[background-color,backdrop-filter,border-color] duration-500 ease-[var(--ease-out-quart)] ${
-        scrolled || open
-          ? "border-b border-line bg-bg/80 backdrop-blur-xl"
-          : "border-b border-transparent bg-transparent"
-      } ${onHero ? "text-white" : "text-fg"}`}
+      className="fixed inset-x-0 top-0 z-50 border-b border-black/10 bg-white text-black"
     >
       <div className="mx-auto flex h-16 max-w-[var(--shell)] items-center px-5 sm:px-8 md:h-20 md:px-12 lg:px-20">
         {/* Logo — left */}
@@ -73,11 +52,11 @@ export function Header() {
           aria-label="Caissa — inicio"
         >
           <Image
-            src="/logo-caissa.svg"
+            src="/images/logo-caissa-negro.png"
             alt="Caissa"
-            width={120}
-            height={32}
-            className="h-7 w-auto md:h-8 brightness-0 invert light:brightness-100 light:invert-0"
+            width={302}
+            height={77}
+            className="h-7 w-auto md:h-8"
             priority
           />
         </a>
@@ -107,9 +86,7 @@ export function Header() {
           </a>
           <a
             href="#contacto"
-            className={`inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-semibold leading-none transition-opacity duration-300 ease-[var(--ease-out-quart)] hover:opacity-90 ${
-              onHero ? "bg-white text-black" : "bg-fg text-bg"
-            }`}
+            className="inline-flex items-center justify-center rounded-full bg-black px-5 py-2.5 text-sm font-semibold leading-none text-white transition-opacity duration-300 ease-[var(--ease-out-quart)] hover:opacity-90"
           >
             <span className="-translate-y-0.5">Contacto</span>
           </a>

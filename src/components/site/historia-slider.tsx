@@ -5,24 +5,16 @@ import Image from "next/image";
 
 const SLIDES = [
   {
-    src: "/images/taller.jpg",
-    alt: "Interior del taller de fabricación Caissa — Buenos Aires",
+    src: "/images/posicion-1.jpeg",
+    alt: "Primera generación de Caissa — fundador trabajando en su escritorio",
   },
   {
-    src: "/images/gal-fedra.jpg",
-    alt: "Línea Fedra — Agendas Caissa personalizables 2025",
+    src: "/images/posicion-2.jpeg",
+    alt: "Segunda generación de Caissa — la familia al frente de la empresa",
   },
   {
-    src: "/images/gal-kit.jpg",
-    alt: "Kit corporativo personalizado Caissa con logo de empresa",
-  },
-  {
-    src: "/images/gal-botellas.jpg",
-    alt: "Caissa Botellas Blacksteel de acero inoxidable personalizables",
-  },
-  {
-    src: "/images/hero-agenda.jpg",
-    alt: "Agenda Caissa abierta sobre escritorio de madera",
+    src: "/images/posicion-3.jpeg",
+    alt: "Tercera generación de Caissa — junto a productos personalizados",
   },
 ];
 
@@ -50,6 +42,7 @@ export function HistoriaSlider() {
             src={slide.src}
             alt={slide.alt}
             fill
+            loading="eager"
             sizes="(max-width:1024px) 100vw, 50vw"
             className="object-cover"
           />
