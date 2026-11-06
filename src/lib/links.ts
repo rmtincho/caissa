@@ -7,7 +7,7 @@
 export const TIENDA_URL = "https://www.mercadolibre.com.ar/tienda/caissa"
 
 /** Venta a empresas (merch.com.ar). */
-export const EMPRESAS_URL = "https://www.tienda.caissa.com.ar"
+export const EMPRESAS_URL = "https://tienda.caissa.com.ar"
 
 /** WhatsApp para revendedores — +54 9 11 3016-1508. */
 export const WHATSAPP_URL =
