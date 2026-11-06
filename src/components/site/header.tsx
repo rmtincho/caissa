@@ -31,7 +31,7 @@ const NAV: NavItem[] = [
   },
   {
     label: "02. Venta a empresas",
-    href: "https://www.tienda.caissa.com.ar",
+    href: "https://tienda.caissa.com.ar",
     external: true,
   },
   { label: "03. Revendedores", href: WA, external: true },
