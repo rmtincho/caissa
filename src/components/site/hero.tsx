@@ -41,7 +41,7 @@ export function Hero() {
             <span className="sr-only">Argentina</span>
           </span>
         </h1>
-        <header className="mt-6 max-w-2xl sm:mt-30">
+        <header className="mt-6 max-w-2xl sm:mt-30 sm:-translate-y-7">
           <span data-reveal="up" className="font-mono-label text-fg-40 is-visible">
             01 — Canales
           </span>
