@@ -80,7 +80,7 @@ export function Contacto() {
         <div className="py-20 md:py-28">
           <Container className="lg:max-w-[640px] lg:px-12 xl:px-16">
             <span data-reveal="up" className="font-mono-label text-fg-40">
-              06 — Contacto
+              07 — Contacto
             </span>
             <h2
               data-reveal="up"

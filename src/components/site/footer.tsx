@@ -7,10 +7,10 @@ const COLUMNS = [
   {
     title: "Productos",
     links: [
-      { label: "Agendas", href: "#categorias" },
-      { label: "Calendarios", href: "#categorias" },
-      { label: "Cuadernos", href: "#categorias" },
-      { label: "Botellas", href: "#categorias" },
+      { label: "Agendas", href: "#portfolio-agendas-2027" },
+      { label: "Calendarios", href: "#portfolio-calendarios" },
+      { label: "Cuadernos", href: "#portfolio-cuadernos-y-carpetas" },
+      { label: "Botellas", href: "#portfolio-botellas-y-vasos" },
     ],
   },
   {
@@ -26,6 +26,7 @@ const COLUMNS = [
     links: [
       { label: "Historia", href: "#historia" },
       { label: "Galería", href: "#galeria" },
+      { label: "Portfolio", href: "#portfolio" },
       { label: "Preguntas frecuentes", href: "#faq" },
       { label: "Contacto", href: "#contacto" },
     ],

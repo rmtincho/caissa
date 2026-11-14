@@ -44,7 +44,7 @@ export function Faq() {
             data-reveal="up"
             className="font-mono-label text-fg/40"
           >
-            05 — FAQ
+            06 — FAQ
           </span>
           <h2
             data-reveal="up"

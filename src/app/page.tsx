@@ -6,6 +6,7 @@ import { Cita } from "@/components/site/cita";
 import { Categorias } from "@/components/site/categorias";
 import { Historia } from "@/components/site/historia";
 import { Galeria } from "@/components/site/galeria";
+import { Portfolio } from "@/components/site/portfolio";
 import { Faq } from "@/components/site/faq";
 import { Contacto } from "@/components/site/contacto";
 import { Footer } from "@/components/site/footer";
@@ -26,6 +27,7 @@ export default function Home() {
         <Logos />
         <Historia />
         <Galeria />
+        <Portfolio />
         <Faq />
         <Contacto />
       </main>
