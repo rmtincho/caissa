@@ -62,7 +62,7 @@ export function Header() {
         </a>
 
         {/* Center — desktop nav (always visible) */}
-        <nav className="hidden flex-1 items-center justify-center gap-5 lg:flex">
+        <nav className="hidden flex-1 items-center justify-center gap-12 lg:flex">
           {NAV.map((item) => (
             <NavLink
               key={item.href}
